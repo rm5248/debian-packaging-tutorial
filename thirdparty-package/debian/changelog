@@ -1,0 +1,5 @@
+simple-thirdparty (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- robert <user@example.com>  Sat, 15 May 2021 17:30:21 -0400

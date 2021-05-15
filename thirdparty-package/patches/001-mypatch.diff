@@ -1,0 +1,12 @@
+Index: thirdparty-package/main.c
+===================================================================
+--- thirdparty-package.orig/main.c
++++ thirdparty-package/main.c
+@@ -1,6 +1,6 @@
+ #include <stdio.h>
+ 
+ int main( int argc, char** argv ){
+-	printf( "Hello world from simple application!\n" );
++	printf( "Hello world from simple application!  Debian patched!\n" );
+ 	return 0;
+ }
