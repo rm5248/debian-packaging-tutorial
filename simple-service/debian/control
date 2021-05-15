@@ -1,0 +1,15 @@
+Source: simple-service
+Section: unknown
+Priority: optional
+Maintainer: robert <email@example.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/simple-service
+#Vcs-Git: https://salsa.debian.org/debian/simple-service.git
+
+Package: simple-service
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple service
+ A simple service that is installed for systemd
